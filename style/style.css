@@ -577,6 +577,101 @@ footer i{
         width: 45%; /*divide em duas colunas o rodape*/
     }
 
+/* ============================= */
+/* RESPONSIVO - CELULAR */
+/* ============================= */
+
+@media(max-width: 768px){
+       .container nav .logo{
+        font-size: 26px;
+    }
+
+      .container nav .ul{
+        gap: 12px;
+    }
+
+
+      .container nav .ul li{
+        font-size: 16px;
+    }
+
+      .main-text h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+  .container .main-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+      .container .main-text div{
+        flex-direction: column;
+    }
+ 
+    .botao-vermelho,
+    .botao-azul,
+    .botao{
+        width: 100%;
+        max-width: 260px;
+    }
+
+
+
+      .resultados .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .resultados-text{
+        display: none;
+    }
+
+      .resultados-numeros{
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 10px;
+    }
+
+
+  .resultados-numeros p{
+        margin: 0;
+    }
+
+
+     .empresa .empresa-text h2{
+        font-size: 32px;
+    }
+
+   .empresa .empresa-text p b{
+        font-size: 22.4px;
+    }
+
+
+    /*centraliza os cards*/
+    .diferenciais .container{
+        display:flex;
+         flex-direction: column;
+        align-items:center;
+    }
+
+    /*tamanho de 90*/
+
+    .diferenciais .card{
+        width:90%;
+    }
+
+
+      footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+     footer .container ul{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+} //fim do celular
 
 
 }
