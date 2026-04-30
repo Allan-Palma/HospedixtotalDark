@@ -441,141 +441,123 @@ footer i{
 /* ============================= */
 /* RESPONSIVO - TABLET */
 /* ============================= */
-@media(max-width: 1024px){
 
-        .background-verde .container nav{
+@media(max-width: 1024px){
+    .background-verde .container nav{
         flex-direction: column;
         gap: 40px;
-         
        
     }
 
-       .container nav .ul{
+    .container nav .ul{
         flex-direction: column;
         gap: 15px;
     }
 
-      .container nav .ul li{
+    .container nav .ul li{
         margin: 0;
         font-size: 18px;
     }
 
-
-       main .container{
+    main .container{
         flex-direction: column;
         text-align: center;
         padding-top: 30px;
         padding-bottom: 40px;
     }
 
-
-      .main-text{
+    .main-text{
         width: 100%;
     }
 
-       .container .main-img{
-      width: 100%;
+     
+    .container .main-img{
+       width: 75%;
+       max-width:480px;
         margin-top: 25px;*/
-        display:none;
+        
     }
 
-     .main-text h1{
-        font-size: 30px;
-        line-height: 36px;
+    .main-text h1{
+        font-size: 35px;
+        line-height: 41px;
        /*  max-width: 900px;
         margin: 0 auto;*/
     }
 
+  
+
     .container .main-text p{
-        max-width:700px;
-        margin: 20px auto;
-        /*font-size: 19px;
-        line-height: 28px;*/
+        font-size: 19px;
+        line-height: 28px;
     }
 
-
-  .container .main-text div{
+    .container .main-text div{
         justify-content: center;
-        gap:16px;
     }
 
-       .resultados .container{
-        flex-direction:column;
-        
+
+     .resultados .container{
+        flex-wrap: wrap;
         gap: 20px;
         text-align: center;
     }
 
-      .resultados-text{
+    .resultados-text{
         width: 100%;
         margin-bottom: 10px;
     }
 
-
- .resultados-numeros{
+    .resultados-numeros{
         width: 100%;
         justify-content: space-around;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
+        flex-wrap: wrap;
         gap: 20px;
     }
 
-      .resultados-numeros p{
+    .resultados-numeros p{
         width: 45%;
     }
 
-  .diferenciais .container{
+    .diferenciais .container{
        display: flex;
-       flex-wrap:wrap;
+        flex-wrap: wrap;
         gap: 20px;
-        justify-content:center;
+        justify-content: center;
     }
 
-
-  .diferenciais .card{
+    .diferenciais .card{
         width: 45%;
         text-align: center;
     }
 
-
-  .empresa .container{
+    .empresa .container{
         flex-direction: column;
         gap: 30px;
     }
 
-
-     .empresa .empresa-img,
+    .empresa .empresa-img,
     .empresa .empresa-text{
-        width: 100%;
-        text-align: center;
+        width: 70%;
+        text-align: justify;
+        max-width:480px;
     }
 
-    .empresa-img img{
-    width: 80%;      /* 🔥 reduz tamanho */
-    max-width: 500px;
-}
-
-       .empresa .empresa-text{
+    .empresa .empresa-text{
         padding-left: 0;
     }
 
-
-    .clientes-box{
-    display: flex;
-    align-items: center;
-    justify-content: center; /* 🔥 ESSENCIAL */
-    gap: 12px;
-    }
-
-      footer .container{
+    footer .container{
         flex-wrap: wrap;
         gap: 30px;
     }
 
-  footer .container ul{
+    footer .container ul{
         width: 45%; /*divide em duas colunas o rodape*/
     }
+
+     
+} /*fim midia tablet*/
 
 /* ============================= */
 /* RESPONSIVO - CELULAR */
